@@ -12,7 +12,7 @@ User.create!(name:  "Example User",
             password:              "foobarbaz",
             password_confirmation: "foobarbaz",
             admin: true,
-            activated: true,
+            activated: false,
             activated_at: Time.zone.now)
 
 # 追加のユーザーをまとめて生成する
